@@ -4,6 +4,9 @@ metadata:
   name: sammadupipelinesjavascriptdocker 
 spec:
   replicas: 1
+    selector:
+    matchLabels:
+      app: sammadupipelinesjavascriptdocker    
   template:
     metadata:
       labels:
